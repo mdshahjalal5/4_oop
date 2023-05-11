@@ -1,5 +1,7 @@
 // !n! ca con me ip  => class constructor => method => instance => parameter properties 
+//  !n! constructor => up con this => pa po pri => public, protected , private 
 class freinds {
+    // !n! constructor holds objects property (perhaps)
     constructor(
         // !n! parameter properties
         public name: string,
@@ -9,13 +11,14 @@ class freinds {
     ) {
 
     }
+    // !n! method should write outside of constructor  
     public transform() {
-        console.log(`${this.name} is our freind age is ${this.age}`)
+        console.log(`${this.name} is our freind age is ${this.age} and he is ${this.is_talented}`)
     }
 
 }
 const best_freind = new freinds('jahir', 33, 'good', true)
-console.log(best_freind)
+console.log(best_freind) // !n! output: freinds { name: 'jahir', age: 33, behave: 'good', is_talented: true }
 
 class Car5 {
     public model: string;
