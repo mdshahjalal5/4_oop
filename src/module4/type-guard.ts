@@ -68,6 +68,7 @@ class Cat extends Animal {
     console.log("I am Meawing");
   }
 }
+// !un (not understood)
 
 function isDog(animal: Animal): animal is Dog {
   return animal instanceof Dog;
@@ -87,7 +88,7 @@ function getAnimal(animal: Animal) {
   }
 }
 
-const animal1 = new Dog("German Bhai", "dog"); // instance -> Dog
+const animal1 = new   Dog("German Bhai", "dog"); // instance -> Dog
 const animal2 = new Cat("Persian Bhai", "cat"); // inatance -> Cat
 
 getAnimal(animal2);
