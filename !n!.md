@@ -8,5 +8,3 @@
 4. 
 5. second
 6. third
-
-1 Amar Ache Jol @
