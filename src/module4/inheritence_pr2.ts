@@ -1,3 +1,4 @@
+
 class complex_number3 {
     // name:string;
     value: number;
@@ -15,5 +16,5 @@ class complex_number3 {
 }
 
 const instance1 = new complex_number3('super', 3, 'chk')
-console.log(instance1, "instance on  ")
+console.log(instance1, "instance")
 

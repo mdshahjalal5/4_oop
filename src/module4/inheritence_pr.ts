@@ -1,3 +1,4 @@
+// !n! inheritence => es => extends> super> super used for getting the parent properties(perhaps)
 type skill = string
 class developers{
     public name3: string;
@@ -20,6 +21,7 @@ class developers{
 
 class designer extends developers{
     constructor(name3:string, age:number, skill:string, is_experience:boolean, public host:string){
+        // !n! super for getting the parent property (perhaps)
         super(name3,age, skill, is_experience)
         this.host = host;
         console.log(host);
