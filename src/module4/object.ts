@@ -1,5 +1,6 @@
 class Animal4 {
   
+  
   constructor(
     public name: string,
     public species: string,
