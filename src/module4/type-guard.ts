@@ -1,7 +1,7 @@
 //keyof guard
 type Alphaneumeric = string | number;
 // keyof guard
-function add(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
+function add3(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
   if (typeof param1 == "number" && typeof param2 === "number") {
     return param1 + param2;
   } else {
@@ -9,8 +9,8 @@ function add(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
   }
 }
 
-add("1", "2");
-add(1, 2);
+add3("1", "2");
+add3(1, 2);
 
 //in guard
 
@@ -57,9 +57,9 @@ class Dog extends Animal {
     super(name, species);
   }
   makeBark() {
-    console.log(" I am barking");
+    console.log(`my name is ${this.name}` , " I am barking");
   }
-}
+} 
 class Cat extends Animal {
   constructor(name: string, species: string) {
     super(name, species);
@@ -70,12 +70,33 @@ class Cat extends Animal {
 }
 // !un (not understood)
 
-function isDog(animal: Animal): animal is Dog {
+function isDog(animal: Animal): animal is Dog { // !animal is dog means ts sure that it is instance of dog 
   return animal instanceof Dog;
 }
 
-function isCat(animal: Animal): animal is Cat {
-  return animal instanceof Cat;
+// function isCat(animal: Animal): animal is Cat {
+//   return animal instanceof Cat;
+// }
+
+function isCat(animal:Animal):animal is Cat{
+  return animal instanceof Cat;  
+}
+// !n! pacipo pachin => param class> instance> property> parent's child can get by instanceof
+// !n! pac paramter type class 
+
+// ! param of the func will be instance of animal > child are attached to animal(perhaps)
+function getAnimal2(ani:Animal){
+      if(ani instanceof Dog){
+
+        ani.makeBark()
+      }
+       else if(
+        ani instanceof Cat){
+          ani.makeMeaw()
+        }
+        else{
+          ani.makeSound()
+        }
 }
 
 function getAnimal(animal: Animal) {
@@ -91,4 +112,5 @@ function getAnimal(animal: Animal) {
 const animal1 = new   Dog("German Bhai", "dog"); // instance -> Dog
 const animal2 = new Cat("Persian Bhai", "cat"); // inatance -> Cat
 
-getAnimal(animal2);
+// getAnimal(animal2);
+getAnimal2(animal1)

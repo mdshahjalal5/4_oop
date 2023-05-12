@@ -1,7 +1,9 @@
-class BankAccount {
+// !n! mo => pa po pai> public> protected> private> 
+// !n!prich > if private can't access in child > protected not use 
+class BankAccount2 {
   public readonly id: number;
   public name: string;
-  protected _balance: number;
+  private _balance: number; // !n! protected should not use
 
   constructor(id: number, name: string, balance: number) {
     this.id = id;
@@ -16,15 +18,17 @@ class BankAccount {
   }
 }
 
-class StudentAccount extends BankAccount{
+class StudentAccount2 extends BankAccount2{
   test(){
-    this.
+    this.addDeposit(30)
   }
 }
 
-const myAccount = new BankAccount(444, "Persian", 20);
-myAccount.addDeposit(20);
-myAccount.getBalance();
+const myAccount3 = new BankAccount2(444, "Persian", 20);
+console.log(myAccount3);
+myAccount3.id = 3 // ! [ts] Cannot assign to 'id' because it is a read-only property.
+myAccount3.addDeposit(20);
+myAccount3.getBalance();
 
 type Add = (a: number, b: number) => number;
 

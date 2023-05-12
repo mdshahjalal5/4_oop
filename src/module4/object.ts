@@ -1,4 +1,4 @@
-class Animal {
+class Animal4 {
   
   constructor(
     public name: string,
@@ -10,8 +10,8 @@ class Animal {
   }
 }
 
-const dog = new Animal("German Shepard", "dog", "Ghew Ghew");
-const cat = new Animal("Persian", "cat", "meaw meaw");
+const dog = new Animal4("German Shepard", "dog", "Ghew Ghew");
+const cat = new Animal4("Persian", "cat", "meaw meaw");
 dog.makeSound();
 cat.makeSound();
 
