@@ -4,7 +4,7 @@ class Person {
   }
 }
 
-class Student extends Person {
+class Student9 extends Person {
   takeNap(): void {
     console.log(`I am sleeping 10 hours per day`);
   }
@@ -21,7 +21,7 @@ function getNap(param: Person) {
 }
 
 const person1 = new Person();
-const person2 = new Student();
+const person2 = new Student9();
 const person3 = new Developer();
 getNap(person1);
 getNap(person2);

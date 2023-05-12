@@ -1,7 +1,9 @@
+// !n! in c > instance> class 
 class Counter {
   static counter: number = 0;
 
   static increment(): number {
+    // !n! can't use this instead of this use ClassName here Counter
     return (Counter.counter = Counter.counter + 1);
   }
   static decrement(): number {
@@ -23,5 +25,8 @@ class MyClass {
   }
 }
 
-console.log(MyClass.myStaticProp); // Output: 'Hello, world!'
-MyClass.myStaticMethod(); // Output: 'This is a static method.'
+console.log(MyClass.myStaticProp); // ! no need create instance 
+MyClass.myStaticMethod(); //! directly access from class
+
+
+// !n! instance it's not reference type that means instance not exist in same storage location 
