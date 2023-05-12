@@ -23,8 +23,11 @@ function getNap(param: Person) {
 const person1 = new Person();
 const person2 = new Student9();
 const person3 = new Developer();
+console.log(person1);
 getNap(person1);
+console.log(person2);
 getNap(person2);
+console.log(person3);
 getNap(person3);
 
 class Shape {
