@@ -1,3 +1,5 @@
+// 5/12/2023, 2:59:21 PM 
+// !n ges => getter|setter> get, return value from class>  set, add value> 
 class BankAccount {
   public readonly id: number;
   public name: string;
@@ -16,33 +18,29 @@ class BankAccount {
   get Test():number{
     return this.getTestBalance()
   }
-  //getter
+  //getter //! we can get value 
   get balance(): number {
     return this._balance;
   }
-  // getBalance(): number {
-  //   return this._balance;
-  // }
-
+get get_name(){
+  return this.name;
+}
+set set_name(name:string){
+  this.name = name;
+  // return null; // ! [ts] Setters cannot return a value.
+}
   //setter
   set deposit(amount: number) {
     this._balance = this.balance + amount;
   }
-  // addDeposit(amount: number) {
-  //   this._balance = this._balance + amount;
-  // }
 }
 
-class StudentAccount extends BankAccount {
-  test() {
-     this.
-  }
-}
 
 const myAccount = new BankAccount(444, "Persian", 30);
-// myAccount.addDeposit(20);
-// myAccount.getBalance();
-// myAccount.getBalance();
 console.log(myAccount.balance);
 myAccount.deposit = 30;
 console.log(myAccount.balance);
+console.log(myAccount.name)
+const myAccount2 = new BankAccount(33, "shahjalal", 40)
+myAccount2.set_name = 'shahjalal new set'
+console.log(myAccount2.name)
