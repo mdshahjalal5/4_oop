@@ -39,8 +39,8 @@ set set_name(name:string){
 const myAccount = new BankAccount(444, "Persian", 30);
 console.log(myAccount.balance);
 myAccount.deposit = 30;
-console.log(myAccount.balance);
+console.log(myAccount.balance); // ! getter implementation
 console.log(myAccount.name)
 const myAccount2 = new BankAccount(33, "shahjalal", 40)
-myAccount2.set_name = 'shahjalal new set'
+myAccount2.set_name = 'shahjalal new set' // ! setter implementation 
 console.log(myAccount2.name)
