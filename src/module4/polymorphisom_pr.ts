@@ -62,3 +62,10 @@ class son extends father{
 }
 
 
+const son_instance = new son('Abir')
+console.log(son_instance);
+const offres = son_instance.offspring()
+console.log(offres);
+const daughter_instance = new daughter2('I am Jannaty', '', 3)
+
+
