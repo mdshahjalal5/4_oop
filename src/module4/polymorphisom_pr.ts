@@ -68,8 +68,9 @@ class son extends father{
     }
 }
 
-// !imp! pacipo => when func para is class 
+// !imp! pacipo =>param>class>instance>property> when func para is parent class  then we get all the properties & method of the parent and child by the param 
 function get_offspring(p:father){
+    // !here we've gotten the offspring method
     console.log(p.offspring());
     
 }
