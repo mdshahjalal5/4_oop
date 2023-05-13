@@ -1,3 +1,4 @@
+// !n! 
 interface  Ieducatino_platform {
     name:string, 
     version:string
@@ -21,3 +22,31 @@ const Education_platform_instance1 = new Education_platform('vowal', "bangla", 1
 console.log(Education_platform_instance1);
 
 
+
+// 5/13/2023, 4:05:30 PM 
+abstract class complexNumber{
+    abstract real: number;
+    constructor( public imaginary:number){
+        this.imaginary = imaginary
+    }
+    abstract print_motto(p1:string, p2:number):void
+}
+
+// const inscomplex = new complexNumber //![ts] Cannot create an instance of an abstract class.
+
+class Real_numbers extends complexNumber{
+    real: number;
+    constructor(
+        real:number, 
+    ){
+        super(real)
+        this.real = real;
+    }
+    print_motto(p1: string, p2: number): void {
+            console.log(p1, p2)
+    }
+}
+
+
+const instanceReal = new Real_numbers(3)
+instanceReal.print_motto("hello", 7) 

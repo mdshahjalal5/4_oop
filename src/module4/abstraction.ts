@@ -1,4 +1,4 @@
-//interface
+  //interface
 
 // interface IVehicle {
 //   name: string;
