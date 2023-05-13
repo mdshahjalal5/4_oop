@@ -1,3 +1,4 @@
+> month/date/year date format
  5/11/2023, 11:59:54 AM 
  oop => object oriented programming 
 
@@ -8,5 +9,4 @@
 3. inheritence=> es => extends> super> super used for getting the parent properties(perhaps)
 4. guard => gun => type guards & type narrowing> kin > keyof guard & in guard 
 5. 
-6. second
-7. third
+5/13/2023, 10:01:46 PM 
