@@ -1,4 +1,5 @@
 // !n! e shic=> exactly not know the task but get shape(like as signature|annotation)> interface> class 
+
 interface  Ieducatino_platform {
     name:string, 
     version:string
