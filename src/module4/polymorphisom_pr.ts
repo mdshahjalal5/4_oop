@@ -1,5 +1,8 @@
 // !n! polymorphism => sad > same but different behave 
+
+// !n! pa sad => parent child same method but different works 
 class science{
+    // !n! printQoute method is same but they are console.logginn different data 
     printQuote(){
         console.log("I am fond of  science quote");
     }
@@ -30,6 +33,10 @@ const scienceInstance = new science();
 getPrint(scienceInstance)
 type str = string | null |  undefined | void
 const str:str = "I have two offsprings"
+
+
+// 5/13/2023, 7:54:15 AM 
+
 class father{
  private readonly  identity: string;
     constructor(identity:string){
@@ -61,11 +68,23 @@ class son extends father{
     }
 }
 
+// !imp! pacipo => when func para is class 
+function get_offspring(p:father){
+    console.log(p.offspring());
+    
+}
 
 const son_instance = new son('Abir')
 console.log(son_instance);
-const offres = son_instance.offspring()
-console.log(offres);
+get_offspring(son_instance)
 const daughter_instance = new daughter2('I am Jannaty', '', 3)
+console.log(daughter_instance);
+
+const doffres = daughter_instance.offspring()
+console.log(doffres);
+
+get_offspring(daughter_instance )
+//! alternative of the up process 
+
 
 
