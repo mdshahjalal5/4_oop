@@ -1,4 +1,4 @@
-// !n! 
+// !n! e shic=> exactly not know the task but get shape(like as signature|annotation)> interface> class 
 interface  Ieducatino_platform {
     name:string, 
     version:string
@@ -6,6 +6,7 @@ interface  Ieducatino_platform {
     teach(x:string):void
 }
 
+// !n! using interface> by interface we can create instance from the class 
 class Education_platform implements Ieducatino_platform {
     version: string;
     constructor(public name:string, version_any:string, public established:number){
@@ -24,6 +25,8 @@ console.log(Education_platform_instance1);
 
 
 // 5/13/2023, 4:05:30 PM 
+
+// !n! by  abstract class we can't create instance 
 abstract class complexNumber{
     abstract real: number;
     constructor( public imaginary:number){
