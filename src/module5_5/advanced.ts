@@ -1,4 +1,5 @@
 //Properties
+
 interface Model<TData, TMethods> {
   data: TData;
   methods: TMethods;
