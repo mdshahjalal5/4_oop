@@ -61,3 +61,23 @@ const division: division = {
   logo: true,
 };
 
+
+// !n! record => support literal types 
+
+type division_record = Record<string, string>;
+
+const division_record: division_record = {
+  name: "dhaka",
+  age: 73, //! [ts] Type 'number' is not assignable to type 'string'.
+
+};
+
+type division_record_literal = Record<"name"|"age"|"is_populate", string|number|boolean>
+
+const division_record_literal: division_record_literal = {
+  name: "dhaka",
+  age: null, // ![ts] Type 'null' is not assignable to type 'string | number | boolean'.
+  city: "barisshal", //  !n [ts] Type '{ name: string; city: string; }' is not assignable to type 'division_record_literal'.
+  //   Object literal may only specify known properties, and 'city' does not exist in type 'division_record_literal'.
+};
+
