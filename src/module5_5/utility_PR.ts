@@ -49,3 +49,15 @@ const readonly_country: Readonly<country> = {
 };
 // !n! can't do cause it readonly 
 readonly_country.population =4;//!  [ts] Cannot assign to 'population' because it is a read-only property.
+
+
+// !n! index signature => can't use literal => literal means specifinc key name 
+type division = {
+    [key_any:string] : string;
+}
+
+const division: division = {
+  name: 3, // ![ts] Type 'number' is not assignable to type 'string'.
+  logo: true,
+};
+
