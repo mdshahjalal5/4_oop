@@ -1,23 +1,24 @@
+
 // Pick
 
-type Person = {
+type Person3 = {
   name: string;
   email?: string;
   contactNo: string;
 };
 
-type Contact = Pick<Person, "contactNo" | "email">;
+type Contact = Pick<Person3, "contactNo" | "email">;
 
 //Omit
 
-type Name = Omit<Person, "email" | "contactNo">;
+type Name = Omit<Person3, "email" | "contactNo">;
 
 //Partial
 // To make all the properties be optional type
-type Optional = Partial<Person>;
-type RequiredProps = Required<Person>;
+type Optional = Partial<Person3>;
+type RequiredProps = Required<Person3>;
 
-const person: Readonly<Person> = {
+const person: Readonly<Person3> = {
   name: "Persian",
   email: "abc@gmail.com",
   contactNo: "122222",
