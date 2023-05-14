@@ -81,3 +81,4 @@ const division_record_literal: division_record_literal = {
   //   Object literal may only specify known properties, and 'city' does not exist in type 'division_record_literal'.
 };
 
+
