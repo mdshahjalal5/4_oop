@@ -48,4 +48,4 @@ const readonly_country: Readonly<country> = {
   cca3: "bdb",
 };
 // !n! can't do cause it readonly 
-readonly_country.population =4; [ts] Cannot assign to 'population' because it is a read-only property.
+readonly_country.population =4;//!  [ts] Cannot assign to 'population' because it is a read-only property.
