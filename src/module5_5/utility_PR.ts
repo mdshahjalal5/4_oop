@@ -1,7 +1,9 @@
+// !n! explore more uitlity types 
+
 // !n! mium => modu> im> uti>mul => module, import&export => multiple 
 
 // !n! utility => po rip=> piomripa> pick> omit> required> partial
-
+// !n! po readec => po rip=> piomripa> pick> omit> required> partial=> readonly => record => 
 interface country {
     name:string, 
     population:number, 
