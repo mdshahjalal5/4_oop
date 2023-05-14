@@ -21,7 +21,7 @@ class Student extends Parent {
 }
 
 const student1 = new Student('Mr.X',15,'Uganda');
-student1.
+// student1.
 
 class Teacher extends Parent {
    designation: string

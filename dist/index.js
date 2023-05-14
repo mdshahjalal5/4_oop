@@ -1,10 +1,10 @@
 "use strict";
-let course = undefined;
-course = "jj";
-console.log(course);
-//Primitive Types
-//string
-//number
-//boolean
-//null
-//undefined
+// let course = undefined;
+// course = "jj";
+// console.log(course);
+// //Primitive Types
+// //string
+// //number
+// //boolean
+// //null
+// //undefined

@@ -59,9 +59,9 @@ class concate{
   // 5/12/2023, 5:52:46 AM 
 
   // !n! instance 
-  new concate('fsdf', 'fsdf');// ! un 
+  // new concate('fsdf', 'fsdf');// ! un 
 
-new concate('fsdf', 'fsdf')
+// new concate('fsdf', 'fsdf')
     // function concatination() { //!n! Unexpected token. A constructor, method, accessor, or property was expected. // we can't write function keyword inside class 
     //         console.log(`${name}`)  
     // }

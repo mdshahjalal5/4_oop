@@ -1,6 +1,7 @@
 // ! module @ scripts (@ means opposite)=> if remain import export is module // not import|export is script > script whose contents are available in the global scope (and therefore to modules as well).
 //! name alias  => ec> es6> common js
 
+// ! wildcart import 
 // import Jekono from "./module";
 // import addTwo from './utils/add'
 // import multiply from './utils/multiply'
