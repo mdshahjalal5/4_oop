@@ -7,7 +7,8 @@
 class freinds {
   // !n! constructor holds class properties (perhaps)
   constructor(
-    // !n! parameter properties //? allow to define class properties directly in the class constructor's parameter list.
+    
+    // ?n! parameter properties //? allow to define class properties directly in the class constructor's parameter list.
     public name: string,
     public age: number,
     public behave: string,
