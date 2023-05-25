@@ -7,7 +7,7 @@
 class freinds {
   // !n! constructor holds class properties (perhaps)
   constructor(
-    
+
     // ?n! parameter properties //? allow to define class properties directly in the class constructor's parameter list.
     public name: string,
     public age: number,
@@ -50,3 +50,15 @@ class Car5 {
 
 
 
+// ?  another class practice 
+
+class CApplication {
+    public type: string, 
+    private verified: boolean, 
+    readonly enabled: string
+    constructor(type_any:string, verified_any:boolean, enabled_any:string){
+        this.type = type_any;
+        this.verified = verified_any;
+        enabled_any = enabled_any;
+    }
+}
