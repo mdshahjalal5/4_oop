@@ -67,4 +67,6 @@ class CApplication {
     }
 }
 
-const applicationInstance = new Application('informal', false, '')
+const applicationInstance = new CApplication('informal', false, true)
+console.log(applicationInstance);
+
