@@ -34,4 +34,6 @@ const data = {
 const carInstance = new Car2( 'bmw', "red", true,)
 console.log(carInstance);
 
+const carInstance2 =new Car2('corolla', "yellow", false)
+console.log(carInstance2);
 
