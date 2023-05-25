@@ -70,3 +70,4 @@ class CApplication {
 const applicationInstance = new CApplication('informal', false, true)
 console.log(applicationInstance);
 
+
