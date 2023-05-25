@@ -69,5 +69,9 @@ class CApplication {
 
 const applicationInstance = new CApplication('informal', false, true)
 console.log(applicationInstance);
-
+applicationInstance.application_intro({
+    age:20, 
+    name:"shahjalal", 
+    how_talented:"infinite"
+})
 
