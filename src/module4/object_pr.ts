@@ -5,21 +5,20 @@
 // !n! pacipo pachin => param class> instance> property> parent's child can get by instanceof
 
 class freinds {
-    // !n! constructor holds class properties (perhaps)
-    constructor(
-        // !n! parameter properties
-        public name: string,
-        public age: number,
-        public behave: string,
-        private is_talented: boolean
-    ) {
-
-    }
-    // !n! method should write outside of constructor  
-    public transform() {
-        console.log(`${this.name} is our freind age is ${this.age} and he is ${this.is_talented}`)
-    }
-
+  // !n! constructor holds class properties (perhaps)
+  constructor(
+    // !n! parameter properties //? allow to define class properties directly in the class constructor's parameter list.
+    public name: string,
+    public age: number,
+    public behave: string,
+    private is_talented: boolean
+  ) {}
+  // !n! method should write outside of constructor
+  public transform() {
+    console.log(
+      `${this.name} is our freind age is ${this.age} and he is ${this.is_talented}`
+    );
+  }
 }
 const best_freind = new freinds('jahir', 33, 'good', true)
 console.log(best_freind) // !n! output: freinds { name: 'jahir', age: 33, behave: 'good', is_talented: true }
