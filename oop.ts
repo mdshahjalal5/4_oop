@@ -35,4 +35,3 @@ const carInstance = new Car2( 'bmw', "red", true,)
 console.log(carInstance);
 
 
-
