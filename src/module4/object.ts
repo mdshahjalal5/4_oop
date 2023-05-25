@@ -15,3 +15,12 @@ dog.makeSound();
 cat.makeSound();
 
 cat.name = "Special Cat";
+
+// ? ----------------------------------//-00-----------------------------------------------------------------------
+
+class CStudent {
+  constructor( public name:string, readonly age:number, public id:number ){
+      
+  }
+}
+

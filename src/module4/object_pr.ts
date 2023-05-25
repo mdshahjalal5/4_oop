@@ -5,7 +5,7 @@
 // !n! pacipo pachin => param class> instance> property> parent's child can get by instanceof
 
 class freinds {
-    // !n! constructor holds objects property (perhaps)
+    // !n! constructor holds class properties (perhaps)
     constructor(
         // !n! parameter properties
         public name: string,
