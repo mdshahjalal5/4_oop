@@ -4,6 +4,8 @@
   address: string;
 // !n! public name is parameter properties (perhaps)
   constructor(public name: string, age: number, address: string) {
+    //? public name is parameter properties (perhaps)
+    
     this.name = name;
     this.age = age;
     this.address = address;
