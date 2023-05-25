@@ -1,11 +1,10 @@
-// !n! ca con me ip  => class constructor => method => instance => parameter properties 
+amar sonart bangl// !n! ca con me ip  => class constructor => method => instance => parameter properties 
 
 //  !n! constructor => up con this => pa po pri => public, protected , private 
  
 // !n! pacipo pachin => param class> instance> property> parent's child can get by instanceof
 
 class freinds {
-  // !n! constructor holds class properties (perhaps)
   constructor(
 
     // ?n! parameter properties //? allow to define class properties directly in the class constructor's parameter list.
