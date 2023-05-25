@@ -26,3 +26,13 @@ class Car2 {
         return true;
     }
 }
+
+
+const data = {
+   
+}
+const carInstance = new Car2( 'bmw', "red", true,)
+console.log(carInstance);
+
+
+
