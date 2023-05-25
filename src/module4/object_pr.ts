@@ -53,12 +53,18 @@ class Car5 {
 // ?  another class practice 
 
 class CApplication {
-    public type: string, 
-    private verified: boolean, 
-    readonly enabled: string
-    constructor(type_any:string, verified_any:boolean, enabled_any:string){
+    public type: string;
+    private verified: boolean;
+    readonly enabled: true;
+    constructor(type_any:string, verified_any:boolean, enabled_any:true){
         this.type = type_any;
         this.verified = verified_any;
-        enabled_any = enabled_any;
+        this.enabled = enabled_any;
+    }
+
+    application_intro(p:object):void{
+        console.table({...p});
     }
 }
+
+const applicationInstance = new Application('informal', false, '')
