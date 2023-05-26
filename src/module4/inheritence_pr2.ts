@@ -32,4 +32,5 @@ class CHuman{
    }
 }
 
-const  CIHuman = CHuman()
+const  CIHuman =new CHuman()
+console.log("🚀 ~ new:", CIHuman)
