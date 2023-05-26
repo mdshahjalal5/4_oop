@@ -114,3 +114,9 @@ const animal2 = new Cat("Persian Bhai", "cat"); // inatance -> Cat
 
 // getAnimal(animal2);
 getAnimal2(animal1)
+
+
+
+
+// ? 5/27/2023, 5:25:20 AM 5/27/2023, 5:25:21 AM 5/27/2023, 5:25:21 AM 5/27/2023, 5:25:21 AM ---------------- chk purpose 
+
