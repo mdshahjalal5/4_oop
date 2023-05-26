@@ -1,3 +1,4 @@
+
 // const newData = {...myInfo ,crush};
 
 type MandatoryTypes = { name: string; age: number; salary: number };

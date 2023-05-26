@@ -34,14 +34,25 @@ class CHuman {
 }
 
 class CMan extends CHuman{
-    
-    constructor(
-        
-    ){
+
+    constructor( ){
         super()
+    }
+    function<T extends name3>(p:T):string{
+        return `I am ${p.name}`
     }
 }
 
-const  CIHuman =new CHuman()
-console.log("🚀 ~ new:", CIHuman)
+const  CIHuman =new CMan()
+
+// ? modifying the CIHuman.kingdom property 
+CIHuman.kingdom = "Animalia"
+console.log(CIHuman);
+interface name3 {
+    name: string, 
+    age?:number, 
+}
+const gen = CIHuman.function<object>({name:'shahjal'})
+console.log("🚀 ~ gen:", gen)
+
 
