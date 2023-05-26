@@ -60,3 +60,7 @@ const gen = CIHuman.function<name3>({name:'shahjal'})
 console.log("🚀 ~ gen:", gen)
 
 
+
+
+// ? 5/26/2023, 5:31:12 PM 5/26/2023, 5:31:13 PM 5/26/2023, 5:31:13 PM 5/26/2023, 5:31:14 PM ------------------------
+
