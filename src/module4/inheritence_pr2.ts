@@ -27,5 +27,9 @@ class CHuman{
     this.kingdom = 'kingdom';
 
  }
-
+   human_nature(){
+    return `We are included this ${this.kingdom}`
+   }
 }
+
+const  CIHuman = CHuman()
