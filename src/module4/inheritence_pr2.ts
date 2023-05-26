@@ -55,6 +55,7 @@ interface name3 {
     age?:number, 
 }
 
+// ? usage of generic constraints
 const gen = CIHuman.function<name3>({name:'shahjal'})
 console.log("🚀 ~ gen:", gen)
 
