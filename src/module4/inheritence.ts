@@ -2,10 +2,10 @@
   // name: string;
   age: number;
   address: string;
-// !n! public name is parameter properties (perhaps)
+
   constructor(public name: string, age: number, address: string) {
     //? public name is parameter properties (perhaps)
-    
+
     this.name = name;
     this.age = age;
     this.address = address;
@@ -28,7 +28,7 @@ const student1 = new Student('Mr.X',15,'Uganda');
 class Teacher extends Parent {
    designation: string
 
-  constructor(name: string, age: number, address: string, designation: string) {
+  constructor( name:string, age: number, address: string, designation: string) {
      super(name,age,address)
      this.designation = designation;
   }
