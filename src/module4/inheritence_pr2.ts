@@ -38,6 +38,8 @@ class CMan extends CHuman{
     constructor( ){
         super()
     }
+    // ?n! generic constraints
+    
     function<T extends name3>(p:T):string{
         return `I am ${p.name}`
     }
@@ -52,7 +54,8 @@ interface name3 {
     name: string, 
     age?:number, 
 }
-const gen = CIHuman.function<object>({name:'shahjal'})
+
+const gen = CIHuman.function<name3>({name:'shahjal'})
 console.log("🚀 ~ gen:", gen)
 
 
