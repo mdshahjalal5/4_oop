@@ -21,7 +21,7 @@ console.log(instance1, "instance")
 
 //?----------------- 5/26/2023, 3:18:25 PM ------------------------
 
-class CHuman{
+class CHuman {
     kingdom:string;
 
  constructor(){
@@ -31,6 +31,15 @@ class CHuman{
    human_nature(){
     return `We are included this ${this.kingdom}`
    }
+}
+
+class CMan extends CHuman{
+    
+    constructor(
+        
+    ){
+        super()
+    }
 }
 
 const  CIHuman =new CHuman()
