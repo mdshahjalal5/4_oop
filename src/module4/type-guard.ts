@@ -22,7 +22,7 @@ type AdminUserType = {
   name: string;
   role: "admin";
 };
-
+    // the
 function getUser(user: NormalUserType | AdminUserType): string {
   if ("role" in user) {
     return `I am an admin and my role is ${user.role}`;
