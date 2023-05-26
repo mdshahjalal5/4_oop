@@ -18,7 +18,8 @@ class complex_number3 {
 const instance1 = new complex_number3('super', 3, 'chk')
 console.log(instance1, "instance")
 
-// 5/26/2023, 3:18:25 PM 
+
+//?----------------- 5/26/2023, 3:18:25 PM ------------------------
 
 class CHuman{
     kingdom:string;
@@ -34,3 +35,4 @@ class CHuman{
 
 const  CIHuman =new CHuman()
 console.log("🚀 ~ new:", CIHuman)
+

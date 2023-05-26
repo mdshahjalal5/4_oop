@@ -1,4 +1,4 @@
-// !n! inheritence => es => extends> super> super used for getting the parent properties(perhaps)
+// !n! => es => extends> super> super used for getting the parent properties(perhaps)
 type skill = string
 class developers{
     public name3: string;
@@ -28,3 +28,7 @@ class designer extends developers{
     }
     
 }
+
+
+
+// 
