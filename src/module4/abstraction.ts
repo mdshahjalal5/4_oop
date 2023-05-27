@@ -64,3 +64,10 @@ const vehicle1 = new Vehicle("Car", "Toyota", 2000);
 const car1= new Vehicle('Car','Honda',2015)
 car1.
 
+
+
+const name3 = "shahjala"
+
+const split = name3.split('')
+console.warn("🚀 ~ split:", split)
+ 
