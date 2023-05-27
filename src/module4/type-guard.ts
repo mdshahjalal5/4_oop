@@ -134,3 +134,7 @@ const object  = {
 }
 
 
+
+// ? 5/27/2023, 11:13:11 AM 5/27/2023, 11:13:12 AM 5/27/2023, 11:13:12 AM 
+const in3 = 'name' in object;
+console.log("🚀 ~ in3:", in3)
