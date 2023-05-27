@@ -40,10 +40,11 @@ const adminUser1: AdminUserType = { name: "Mr. Gallu", role: "admin" };
 console.log(getUser(normalUser1));
 console.log(getUser(adminUser1));
 
+
+// ? 5/27/2023, 11:34:38 AM 5/27/2023, 11:34:39 AM 5/27/2023, 11:34:39 AM 
+
 //instaceof guard
 // the more 
-
-
 
 class Animal {
   name: string;
@@ -132,8 +133,7 @@ const object  = {
   profession:'student', 
   is_married:false,
 }
-
-
+ 
 
 // ? 5/27/2023, 11:13:11 AM 5/27/2023, 11:13:12 AM 5/27/2023, 11:13:12 AM 
 const in3 = 'name' in object;
