@@ -1,5 +1,5 @@
 // !n! mo => pa po pai> public> protected> private> 
-// !n!prich > if private can't access in child > protected not use 
+// !n!prich > if private,  can't access in child > protected not use 
 class BankAccount2 {
   public readonly id: number;
   public name: string;

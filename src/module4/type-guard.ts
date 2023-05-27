@@ -45,7 +45,6 @@ console.log(getUser(adminUser1));
 
 //instaceof guard
 // the more 
-
 class Animal {
   name: string;
   species: string;
