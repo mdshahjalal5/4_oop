@@ -54,3 +54,14 @@ class Real_numbers extends complexNumber{
 
 const instanceReal = new Real_numbers(3)
 instanceReal.print_motto("hello", 7) 
+
+
+
+// ? 5/27/2023, 12:06:35 PM 5/27/2023, 12:06:36 PM 5/27/2023, 12:06:36 PM 5/27/2023, 12:06:36 PM 5/27/2023, 12:06:37 PM 
+
+interface ISchool {
+    name:string, 
+    total_teacher:number, 
+    is_goog:boolean, 
+}
+
