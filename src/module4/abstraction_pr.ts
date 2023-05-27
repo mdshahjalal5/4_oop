@@ -31,7 +31,7 @@ console.log(Education_platform_instance1);
 abstract class complexNumber{
     abstract real: number;
     constructor( public imaginary:number){
-        this.imaginary = imaginary
+        // this.imaginary = imaginary
     }
     abstract print_motto(p1:string, p2:number):void
 }
@@ -72,5 +72,5 @@ class CSchool implements ISchool {
         
     }
 
-    
+
 }
