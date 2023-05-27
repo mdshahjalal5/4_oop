@@ -2,6 +2,7 @@
 type Alphaneumeric = string | number;
 // keyof guard
 function add3(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
+  
   if (typeof param1 == "number" && typeof param2 === "number") {
     return param1 + param2;
   } else {
@@ -38,6 +39,9 @@ console.log(getUser(normalUser1));
 console.log(getUser(adminUser1));
 
 //instaceof guard
+// the more 
+
+
 
 class Animal {
   name: string;
