@@ -2,9 +2,11 @@
 type Alphaneumeric = string | number;
 // keyof guard
 function add3(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
+  // return param1 + param2
   
   if (typeof param1 == "number" && typeof param2 === "number") {
     return param1 + param2;
+    
   } else {
     return param1.toString() + param2.toString();
   }
@@ -123,4 +125,12 @@ getAnimal2(animal1)
 
 
 // ? 5/27/2023, 5:25:20 AM 5/27/2023, 5:25:21 AM 5/27/2023, 5:25:21 AM 5/27/2023, 5:25:21 AM ---------------- chk purpose 
+
+const object  = {
+  name:'shahjala', 
+  age:20, 
+  profession:'student', 
+  is_married:false,
+}
+
 
