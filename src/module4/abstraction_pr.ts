@@ -65,3 +65,9 @@ interface ISchool {
     is_goog:boolean, 
 }
 
+
+class CSchool implements ISchool {
+    constructor(){
+        
+    }
+}
