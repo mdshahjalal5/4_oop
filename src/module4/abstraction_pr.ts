@@ -62,12 +62,15 @@ instanceReal.print_motto("hello", 7)
 interface ISchool {
     name:string, 
     total_teacher:number, 
-    is_goog:boolean, 
+    is_good:boolean, 
 }
 
 
 class CSchool implements ISchool {
-    constructor(){
+
+    constructor(public name:string, public total_teacher:number, public is_good:boolean){
         
     }
+
+    
 }
