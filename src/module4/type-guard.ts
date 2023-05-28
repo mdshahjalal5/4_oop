@@ -137,3 +137,13 @@ const object  = {
 // ? 5/27/2023, 11:13:11 AM 5/27/2023, 11:13:12 AM 5/27/2023, 11:13:12 AM 
 const in3 = 'name' in object;
 console.log("🚀 ~ in3:", in3)
+
+
+
+
+//? 5/28/2023, 6:17:45 AM 5/28/2023, 6:17:45 AM 5/28/2023, 6:17:45 AM 5/28/2023, 6:17:45 AM 5/28/2023, 6:17:47 AM 5/28/2023, 6:17:47 AM  
+// !n! example of type guard function
+
+function isString(value: unknown): value is string {
+  return typeof value === "string";
+}
